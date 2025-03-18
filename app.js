@@ -52,9 +52,12 @@ document.getElementById('agregar').addEventListener('click', agregarAmigo);
 
 document.getElementById('sorteo').addEventListener('click', sortearAmigo);
 
+document.getElementById('reset').addEventListener('click', sortearReset);
+
 
 function sortearReset () {
-    lista.innerHTML = ''; //para limpiar la lista 
+    amigos = []; 
+    document.getElementById('listaAmigos').innerHTML = '';
     document.getElementById('amigo').value = '';
-    document.getElementById('resultado').innerHTML = ``;
+    document.getElementById('resultado').innerHTML = '';
 }
