@@ -168,6 +168,7 @@ ul {
     color: white; 
     border: none; 
     margin-top: 20px; 
+    align-items: center;
 }
 
 .button-reset:hover {
