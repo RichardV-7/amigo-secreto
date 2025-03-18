@@ -53,9 +53,8 @@ document.getElementById('agregar').addEventListener('click', agregarAmigo);
 document.getElementById('sorteo').addEventListener('click', sortearAmigo);
 
 
-function parametrosIniciales () {
+function sortearReset () {
     lista.innerHTML = ''; //para limpiar la lista 
     document.getElementById('amigo').value = '';
-
-    
+    document.getElementById('resultado').innerHTML = ``;
 }
