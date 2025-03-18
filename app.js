@@ -8,7 +8,7 @@ function agregarAmigo () {
     let ingresoNombre = document.getElementById('amigo').value;
     
 //si nombre esta vacio motrar el alert
-    if (ingresoNombre == '') {
+    if (ingresoNombre.trim() === '') {
         alert('Por favor, inserte un nombre.');
 
 //si no insertar el nombre en la lista amigos 
