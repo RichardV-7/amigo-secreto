@@ -168,7 +168,9 @@ ul {
     color: white; 
     border: none; 
     margin-top: 20px; 
+    margin: 20px auto; 
     align-items: center;
+    display: block;
 }
 
 .button-reset:hover {
