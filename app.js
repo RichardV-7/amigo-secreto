@@ -18,6 +18,7 @@ function agregarAmigo () {
 
 //limpiar el campo donde se ingresa 
     document.getElementById('amigo').value = '';
+    mostrasListaAmigos();
 }
 
 //funcion para el listado 
@@ -35,7 +36,7 @@ function mostrasListaAmigos () {
 
 // funcion para el sorteo 
 function sortearAmigo() {
-    if (amigos.length === 0) { //
+    if (amigos.length === 0) { //cuando la longitud de la lista es 0 no hay registros 
         alert('No hay amigos en la lista para sortear.');
         return; 
     }
